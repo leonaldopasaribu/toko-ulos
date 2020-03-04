@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto;
+}
+
+/* Image */
+
+.image{
+    margin-top: 10px;
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Slider */
+
+.top-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.top-slider {
+    width: 100%;
+    height: 350px;
+}
+
+.content-slider img {
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+
+  /*saat gambar di hover oleh cursor mouse maka berhenti slide*/
+.content-slider:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
